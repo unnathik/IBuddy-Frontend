@@ -1,0 +1,112 @@
+
+canvas {
+    display: block;
+  }
+  
+  html, body {
+    /*background-color: #ce3635;*/
+    background-color: #3C7A89;
+    font-family: Helvetica, sans-serif, sans-serif;
+    font-size: 14px;
+    overflow: hidden; 
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  h1 {
+    position: absolute;  
+    display: inline-block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8vw;
+    margin-left: 6vw;
+    margin-top: 6vh;
+    margin-bottom: 3vh;
+    /* identical to box height */
+  
+    letter-spacing: -0.05em;
+  
+    color: #FFFFFF;
+  }
+  
+  h2{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 4vw;
+    margin-left: 6vw;
+    margin-top: 25vh;
+
+    letter-spacing: -0.05em;
+  
+    color: #FFFFFF;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+    display: inline-block; 
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  indexbutton{
+    position: absolute;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2.5vw;
+    line-height: 65px;
+
+    text-align: left;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border: white;
+    border-radius: 10px;
+    letter-spacing: -0.05em;
+    height: 10vh; 
+  
+    color: #FFFFFF;
+  
+    background: #16262E;
+  
+  }
+  
+  indexbutton:hover{
+    border: 4px solid #FFFFFF;
+    box-sizing: border-box;
+  }
+
+  #ibuddy-logo {
+    float:left;
+    width: 70vw;
+    height: 70vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-left: 40vw;
+    margin-top: 10vh;
+  }
+
+  .buttonsStacked {
+    display: block;
+    margin-top: 40vh;
+    margin-left: 6vw;
+  }
+
+  div + div {
+    margin-top: 10vh;
+  }

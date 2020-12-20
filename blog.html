@@ -1,0 +1,88 @@
+<html>
+<head>
+    <title>Blog</title>
+    <link rel="stylesheet" href="blog.css" type="text/css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script>
+      function getVote(int) {
+        var xmlhttp=new XMLHttpRequest();
+        xmlhttp.onreadystatechange=function() {
+          if (this.readyState==4 && this.status==200) {
+            document.getElementById("poll").innerHTML=this.responseText;
+          }
+        }
+        xmlhttp.open("GET","poll_vote.php?vote="+int,true);
+        xmlhttp.send();
+      }
+      </script>
+      
+</head>
+<body>
+    <div class="header">
+        <h2>The IBuddy Blog</h2>
+      </div>
+      
+      <div class="row">
+        <div class="leftcolumn">
+          <a href="cashacks.html" class="about">
+          <div class="card2">
+            <h2>CAS HACKS</h2>
+            <h5>CAS Due in a Month? How to finish your CAS ASAP
+              <br>Dec 7, 2020</h5>
+            <div style="height:200px;"><img src="Kids-now-spend-twice-as-much-time-playing-indoors-than-outdoors.jpg" class="img1">
+              <img src="community-service-ideas.jpg" class="img1">
+            </div>
+            <p> Over your 18 months of CAS, you’ll be expected to produce reflections. These are thoughtful, honest accounts of what you’ve gained by completing CAS experiences. 
+              They might be extremely overwhelming and time consuming at times especially with the academic pressure you already got on your shoulder.<p>
+                <p>However, with the following “hacks”, writing CAS reflections won’t seem too bad after!</p>
+              </div></a>
+              
+
+
+              <div class="card">
+                <h2>TOK Tips</h2>
+                <h5>Late night Grind? How to finish your TOK Essay ASAP
+                  <br>Jan 2, 2021</h5>
+                <div style="height:200px;"> <img src="books.jpeg" class="img1"> <img src="sci.jpg" class="img1"></div>
+                <p>An additional class on top of your 6 subject heavy work load, TOK may seem to be insuperable task to many. 
+                  It is normal to feel confused during your first few classes but it really isn’t too bad once you reconsider your preconceived notions about the subject.</p>
+                <p>Once you get the hang of this subject and start putting forward your viewpoints during class discussions, you’ll feel the greatest sense of satisfaction ever- 
+                  trust us on that!</p>
+              </div>
+            </div>
+
+
+
+
+
+
+        <div class="rightcolumn">
+
+          <div class="card" id="home">
+            <h3>
+              <a href="#" id="link">
+              Home</a>
+            </h3></div>
+
+          <div class="card1">
+            <a href="ibuddy.html" class="about">
+            <h2>About IBuddy</h2>
+            <div style="height:150px;"><img src="IB.png" class="logo"></div>
+            <p>The absolutely soul-crushing workload of IB is something that you often have to go through alone....</p>
+          </a>
+          </div>
+          <div class="card">
+            <h3>Other Posts</h3>
+            <div class="posts"><button>How to Get a 45</button></div><br>
+            <div class="posts"><button>Irregular Diploma</button></div><br>
+            <div class="posts"><button> Subject Choices Advice</button></div>
+          </div>
+      
+      <div class="footer">
+        <h2>Copyright@ 2020 By Team PWSA</h2>
+      </div>
+
+
+</body>
+
+</html>
